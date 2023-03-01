@@ -1,0 +1,94 @@
+html,body{
+    display: flex;
+    height: 100%;
+    margin: 0px;
+}
+header{
+    background-color: rgb(65, 65, 65);
+    color: white;
+    width: 40%;
+    height: 100%;
+    padding: 3%;
+    .imagen{
+        display: flex;
+        justify-content: center;
+        .imagenRedonda{
+            width: 200px;
+            height:200px;
+            border-radius:150px;
+        }
+    }
+    .texto{
+        padding-top: 10%;
+        p{
+            padding-top: 10%;
+        }
+    }
+}
+.dividir1{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+section{
+    width: auto;
+    height: auto;
+    display: grid;
+    justify-content: center;
+    padding-top: 5%;
+    .title{
+        h1,h2{
+            display: flex;
+            justify-content: center;
+        }
+    }
+    .list{
+        display: flex;
+        min-width: 10px;
+        div{
+            padding: 15px;
+    
+        }
+    }
+}
+aside{
+    padding-left: 5%;
+    .dividir2{
+        padding-right: 5%;
+    }
+    h4{
+        padding-bottom: 5%;
+    }
+    .job{
+        display: flex;
+        padding-bottom: 5%;
+        .descripcion{
+            padding-left: 5%;
+            border-left: medium outset rgb(65, 65, 65) ;
+            height:auto;
+            left: 45%;
+            position: absolute;
+        }
+    }
+    .escuela{
+        display: flex;
+        .name{
+            padding-right: 11%;
+        }
+        .descripcion{
+            padding-left: 6.5%;
+            border-left: medium outset rgb(65, 65, 65) ;
+            height:auto;
+        }
+    }
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+h7{
+    font-weight: bold;
+}
+button{
+    border: none;
+    background-color: white;
+}

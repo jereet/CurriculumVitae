@@ -1,0 +1,132 @@
+html, body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  margin: 0px;
+}
+
+header {
+  background-color: #414141;
+  color: white;
+  width: 40%;
+  height: 100%;
+  padding: 3%;
+}
+
+header .imagen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .imagen .imagenRedonda {
+  width: 200px;
+  height: 200px;
+  border-radius: 150px;
+}
+
+header .texto {
+  padding-top: 10%;
+}
+
+header .texto p {
+  padding-top: 10%;
+}
+
+.dividir1 {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+section {
+  width: auto;
+  height: auto;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 5%;
+}
+
+section .title h1, section .title h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 10px;
+}
+
+section .list div {
+  padding: 15px;
+}
+
+aside {
+  padding-left: 5%;
+}
+
+aside .dividir2 {
+  padding-right: 5%;
+}
+
+aside h4 {
+  padding-bottom: 5%;
+}
+
+aside .job {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 5%;
+}
+
+aside .job .descripcion {
+  padding-left: 5%;
+  border-left: medium outset #414141;
+  height: auto;
+  left: 45%;
+  position: absolute;
+}
+
+aside .escuela {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+aside .escuela .name {
+  padding-right: 11%;
+}
+
+aside .escuela .descripcion {
+  padding-left: 6.5%;
+  border-left: medium outset #414141;
+  height: auto;
+}
+
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+}
+
+h7 {
+  font-weight: bold;
+}
+
+button {
+  border: none;
+  background-color: white;
+}
+/*# sourceMappingURL=style.css.map */
