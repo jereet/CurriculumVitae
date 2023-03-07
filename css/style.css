@@ -73,6 +73,15 @@ section .list div {
   padding: 15px;
 }
 
+.contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 aside {
   padding-left: 5%;
 }
@@ -82,22 +91,27 @@ aside .dividir2 {
 }
 
 aside h4 {
-  padding-bottom: 5%;
+  padding-bottom: 2.5%;
 }
 
 aside .job {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-bottom: 5%;
 }
 
-aside .job .descripcion {
-  padding-left: 5%;
+aside .job .name {
+  margin-right: 10%;
+}
+
+aside .job .name2 {
+  margin-top: 60%;
+}
+
+aside .descripcion {
+  padding-left: 6.5%;
   border-left: medium outset #414141;
   height: auto;
-  left: 45%;
-  position: absolute;
 }
 
 aside .escuela {
@@ -107,13 +121,7 @@ aside .escuela {
 }
 
 aside .escuela .name {
-  padding-right: 11%;
-}
-
-aside .escuela .descripcion {
-  padding-left: 6.5%;
-  border-left: medium outset #414141;
-  height: auto;
+  padding-right: 9%;
 }
 
 h1 {

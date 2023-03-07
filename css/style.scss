@@ -50,34 +50,37 @@ section{
         }
     }
 }
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
 aside{
     padding-left: 5%;
     .dividir2{
         padding-right: 5%;
     }
     h4{
-        padding-bottom: 5%;
+        padding-bottom: 2.5%;
     }
     .job{
         display: flex;
-        padding-bottom: 5%;
-        .descripcion{
-            padding-left: 5%;
-            border-left: medium outset rgb(65, 65, 65) ;
-            height:auto;
-            left: 45%;
-            position: absolute;
+        //padding-bottom: 4.5%;
+        .name{
+            margin-right: 10%;
+        }  
+        .name2{
+            margin-top: 60%;
         }
+    }
+    .descripcion{
+        padding-left: 6.5%;
+        border-left: medium outset rgb(65, 65, 65) ;
+        height:auto;
     }
     .escuela{
         display: flex;
         .name{
-            padding-right: 11%;
-        }
-        .descripcion{
-            padding-left: 6.5%;
-            border-left: medium outset rgb(65, 65, 65) ;
-            height:auto;
+            padding-right: 9%;
         }
     }
 }
